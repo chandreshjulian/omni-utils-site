@@ -31,6 +31,10 @@ The hero uses a CSS-only dot-grid + radial glow background (no JS, no images).
 
 ## Structure
 
-- `index.html` — single-page layout: hero → 4-column feature grid → footer
+- `index.html` — single-page layout: hero → 4-column feature grid → `// connect` section → footer
 - `style.css` — all styles; responsive breakpoints at 600 px (2-col) and 1024 px (4-col)
-- `assets/` — extension screenshots (`format.png`, `clipboard.png`, `codec.png`, `settings.png`) and the extension icon (`icon128.png`)
+- `assets/` — extension screenshots (`format.png`, `clipboard.png`, `codec.png`, `settings.png`), the extension icon (`icon128.png`), and a Buy Me a Coffee QR code (`qr-code.png`)
+
+## Second accent: BMC yellow
+
+The `// connect` section introduces `#ffdd00` (Buy Me a Coffee yellow) as a deliberate second accent alongside `--accent` blue. It appears only on `.card-dot--coffee` and `.coffee-btn` — keep it scoped there. Do not use it for product UI elements.
